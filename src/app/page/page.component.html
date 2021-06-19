@@ -1,0 +1,42 @@
+<!-- ============================================================== -->
+<!-- Main wrapper - style you can find in pages.scss -->
+<!-- ============================================================== -->
+<div id="main-wrapper">
+
+    <!-- header -->
+    <app-header></app-header>
+    <!--end header -->
+    <!-- sidevar -->
+    <app-sidevar></app-sidevar>
+    <!-- end sidevar -->
+    <div class="page-wrapper">
+        <div class="container-fluid">
+
+            <app-breadcrumbs></app-breadcrumbs>
+
+            <!-- system routers -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <router-outlet></router-outlet>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end system routers -->
+
+
+        </div>
+
+        <!-- ============================================================== -->
+        <!-- footer -->
+        <!-- ============================================================== -->
+        <app-footer></app-footer>
+        <!-- ============================================================== -->
+        <!-- End footer -->
+        <!-- ============================================================== -->
+
+    </div>
+
+</div>

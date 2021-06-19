@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+#responsive {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-size: contain;
+}
+
+#dummy {
+    padding-top: 29%;
+}
