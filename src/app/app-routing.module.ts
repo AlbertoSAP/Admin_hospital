@@ -5,7 +5,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ProgressComponent } from './page/progress/progress.component';
 import { Grafica1Component } from './page/grafica1/grafica1.component';
-import { NotpageComponent } from './page/notpage/notpage.component';
+import { NotpageComponent } from './notpage/notpage.component';
 import { PageComponent } from './page/page.component';
 
 
